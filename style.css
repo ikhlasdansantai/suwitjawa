@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#8b939a, #5b6467);
+  font-family: sans-serif;
+}
+@media screen and (max-width: 612px) {
+  .container {
+    min-height: 100vh;
+    text-align: center;
+    padding: 1rem;
+  }
+  #judul h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    color: white;
+  }
+  #judul p {
+    font-size: 1rem;
+  }
+  #judul a {
+    text-decoration: none;
+    color: black;
+  }
+  #judul a:hover {
+    color: white;
+  }
+  #comp img {
+    margin-top: 1.5rem;
+    max-width: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  #player {
+    margin-top: -0.5rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+  }
+  .tplayer {
+    color: white;
+    margin-top: 3.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #player img {
+    margin: 1.2rem 0 2rem 0;
+    max-width: 25vw;
+    order: 1;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #player img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .score {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+  }
+  .score .sP {
+    margin-right: 2rem;
+  }
+  .score .sK {
+    margin-right: 1rem;
+  }
+  #comp {
+    margin-top: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .info {
+    margin: 2rem auto;
+    max-width: 80vw;
+    height: 10vh;
+    line-height: 8.2vh;
+    border: 5px solid salmon;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  .info p {
+    opacity: 0.5;
+  }
+  .footer p {
+    line-height: 1.5rem;
+    color: white;
+  }
+  .result {
+    font-size: 2rem;
+    color: white;
+  }
+  .noclick {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    min-height: 100vh;
+    text-align: center;
+    padding: 1rem;
+    text-align: center;
+  }
+  #judul h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    color: white;
+  }
+  #judul p {
+    font-size: 1rem;
+  }
+  #judul a {
+    text-decoration: none;
+    color: black;
+  }
+  #judul a:hover {
+    color: white;
+  }
+  #comp img {
+    margin-top: 1.5rem;
+    max-width: 30vw;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  #player {
+    margin-top: -0.5rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+  }
+  .tplayer {
+    color: white;
+    margin-top: 3.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #player img {
+    margin: 1.2rem 0 2rem 0;
+    max-width: 25vw;
+    order: 1;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #player img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .score {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+  }
+  .score .sP {
+    margin-right: 15em;
+  }
+  .score .sK {
+    margin-right: 5rem;
+  }
+  #comp {
+    margin-top: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .info {
+    margin: 2rem auto;
+    max-width: 80vw;
+    height: 30vh;
+    line-height: 26vh;
+    font-size: 2rem;
+    border: 5px solid salmon;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  .info p {
+    opacity: 0.5;
+  }
+  .footer p {
+    line-height: 1.5rem;
+    color: white;
+  }
+  .result {
+    font-size: 3rem;
+    color: white;
+  }
+  .noclick {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
