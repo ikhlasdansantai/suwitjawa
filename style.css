@@ -39,7 +39,7 @@ body {
     overflow: hidden;
   }
   #player {
-    margin-top: -0.5rem;
+    /* margin-top: -rem; */
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
