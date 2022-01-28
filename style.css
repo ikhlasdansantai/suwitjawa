@@ -5,7 +5,7 @@ body {
   background: linear-gradient(#8b939a, #5b6467);
   font-family: sans-serif;
 }
-@media screen and (max-width: 612px) {
+@media (max-width: 600px) {
   .container {
     min-height: 100vh;
     text-align: center;
@@ -27,8 +27,13 @@ body {
   #judul a:hover {
     color: white;
   }
+  #comp p {
+    margin-top: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+  }
   #comp img {
-    margin-top: 1.5rem;
+    margin: 1.2rem 0 0 0;
     max-width: 30vw;
     border-radius: 50%;
     overflow: hidden;
@@ -43,7 +48,7 @@ body {
     color: white;
     margin-top: 3.5rem;
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold;  */
   }
   #player img {
     margin: 1.2rem 0 2rem 0;
@@ -57,18 +62,27 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
   }
+  .result {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+  }
   .score {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     font-size: 1.1rem;
   }
   .score .sP {
-    margin-right: 2rem;
+    color: white;
   }
   .score .sK {
-    margin-right: 1rem;
+    color: white;
   }
-  #comp {
+  */ #comp {
     margin-top: 3rem;
     color: white;
     text-transform: uppercase;
@@ -105,13 +119,20 @@ body {
   .result {
     font-size: 2rem;
     color: white;
+    text-align: center;
   }
   .noclick {
     cursor: not-allowed;
     pointer-events: none;
   }
+  .footer {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+  }
 }
-@media (min-width: 576px) {
+@media (min-width: 600px) {
   .container {
     min-height: 100vh;
     text-align: center;
@@ -153,7 +174,7 @@ body {
     font-weight: bold;
   }
   #player img {
-    margin: 1.2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
     max-width: 25vw;
     order: 1;
     overflow: hidden;
@@ -166,14 +187,35 @@ body {
   }
   .score {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-self: center;
+    /* padding: 0 5em; */
+    flex-wrap: wrap;
     font-size: 1.1rem;
+    width: 80%;
+    margin: auto;
+    /* border: 5px solid red; */
   }
   .score .sP {
-    margin-right: 15em;
+    /* border: 2px solid blue; */
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
   }
   .score .sK {
-    margin-right: 5rem;
+    /* margin: auto 2rem auto auto; */
+    /* border: 2px solid red; */
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .result {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
   }
   #comp {
     margin-top: 3rem;
@@ -194,9 +236,10 @@ body {
   .info {
     margin: 2rem auto;
     max-width: 80vw;
-    height: 30vh;
-    line-height: 26vh;
-    font-size: 2rem;
+    height: 20vh;
+    line-height: 20vh;
+    font-size: 1.5rem;
+    text-align: center;
     border: 5px solid salmon;
     color: white;
     border-radius: 50px;
@@ -206,8 +249,14 @@ body {
   .info p {
     opacity: 0.5;
   }
+  .footer {
+    width: 80%;
+    margin: auto;
+  }
   .footer p {
-    line-height: 1.5rem;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    padding: 0 0.8em;
     color: white;
   }
   .result {

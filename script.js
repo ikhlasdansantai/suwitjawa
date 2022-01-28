@@ -96,20 +96,24 @@ pilPlayer.forEach((el) => {
       imgKomputer.setAttribute("src", "img/" + pilihanKomputer + ".png");
 
       if (playerScore == 3 && komputerScore !== 0) {
-        result.textContent = "Kamu Menang :)";
+        result.textContent = "Kamu Menang😎👍";
+        result.style.textAlign = "center";
+        result.fontSize = "1rem";
         scoreP.style.display = "none";
         scoreK.style.display = "none";
         parent.classList.add("noclick");
       }
       if (komputerScore == 3) {
-        result.textContent = "Kamu Kalah :(";
+        result.textContent = "Kamu Kalah 😥";
+        result.fontSize = "1rem";
+        result.style.textAlign = "center";
         scoreP.style.display = "none";
         scoreK.style.display = "none";
         parent.classList.add("noclick");
       }
-      if (playerScore == 5 && komputerScore === 0) {
-        result.textContent = "karena kamu telah berhasil menamatkan game ini, ss teks ini kirim ke gw ntar gw kasih suprise :D";
-        result.style.fontSize = "1rem";
+      if (playerScore == 3 && komputerScore === 0) {
+        result.textContent = "karena kamu telah berhasil menamatkan game ini, ss teks ini kirim ke gw ntar gw kasih suprise 🤞😎🤞";
+        result.style.fontSize = "1.3rem";
         result.style.lineHeight = "1.5rem";
         scoreP.style.display = "none";
         scoreK.style.display = "none";
