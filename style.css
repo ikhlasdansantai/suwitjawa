@@ -142,7 +142,7 @@ body {
   #judul h1 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
   }
   #judul p {
@@ -157,7 +157,7 @@ body {
   }
   #comp img {
     margin-top: 1.5rem;
-    max-width: 30vw;
+    max-width: 20vw;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -175,7 +175,7 @@ body {
   }
   #player img {
     margin: 2rem 0 2rem 0;
-    max-width: 25vw;
+    max-width: 20vw;
     order: 1;
     overflow: hidden;
     border-radius: 50%;
@@ -200,7 +200,7 @@ body {
     /* border: 2px solid blue; */
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .score .sK {
     /* margin: auto 2rem auto auto; */
@@ -237,7 +237,7 @@ body {
     margin: 2rem auto;
     max-width: 80vw;
     height: 20vh;
-    line-height: 20vh;
+    line-height: 18vh;
     font-size: 1.5rem;
     text-align: center;
     border: 5px solid salmon;
@@ -254,10 +254,11 @@ body {
     margin: auto;
   }
   .footer p {
-    line-height: 1.2rem;
-    font-size: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
     padding: 0 0.8em;
     color: white;
+    text-align: center;
   }
   .result {
     font-size: 3rem;
